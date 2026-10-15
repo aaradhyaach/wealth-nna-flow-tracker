@@ -1,0 +1,14 @@
+firm,period,client_assets_bn,precision,source_doc,source_url
+MS,2023Q3,4800,approx ("nearly $4.8T"),WealthManagement.com 3Q23 coverage,https://www.wealthmanagement.com/industry/morgan-stanley-asset-growth-slows-q3
+MS,2024Q3,6000,approx ("$6 trillion"),MS 3Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000484/a3q24msearningsrelease.htm
+MS,2024Q4,6194,exact,MS 2025 Form 10-K,https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm
+MS,2025Q4,7381,exact,MS 2025 Form 10-K,https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm
+MS,2026Q3,8400,approx ("$8.4 trillion"),MS 3Q26 earnings call,https://finance.yahoo.com/quote/MS/earnings/MS-Q3-2026-earnings_call-651461.html
+SCHW,2025Q1,9929.7,exact,Schwab 1Q26 10-Q (prior-year column),https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000019/schw-20260331.htm
+SCHW,2025Q2,10760,approx ("$10.76T"),Schwab 2Q25 earnings release,https://www.sec.gov/Archives/edgar/data/316709/000031670925000033/a2q25exhibit991.htm
+SCHW,2025Q4,11900,approx ("$11.90T"),Schwab 2025 Form 10-K,https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm
+SCHW,2026Q1,11767.9,exact,Schwab 1Q26 10-Q,https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000019/schw-20260331.htm
+SCHW,2026Q3,13330,approx ("$13.33T"),Schwab 3Q26 coverage (Quartz),https://qz.com/charles-schwab-record-revenue-net-new-assets-earnings-101526
+LPLA,2025Q4,2430.8,exact,LPL 1Q26 earnings release (prior-quarter column),https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-first-quarter-2026-results
+LPLA,2026Q1,2336.3,exact,LPL 1Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-first-quarter-2026-results
+LPLA,2026Q2,2562.7,exact,LPL 2Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-second-quarter-2026-results

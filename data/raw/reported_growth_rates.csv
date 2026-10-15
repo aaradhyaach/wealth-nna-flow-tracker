@@ -1,0 +1,11 @@
+firm,period,reported_annualized_growth,basis,source_doc,source_url
+MS,2024,0.05,full-year NNA / beginning-period assets,MS 4Q24 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542125000079/a4q24msearningsrelease.htm
+SCHW,2025,0.051,full-year core NNA organic growth,Schwab 4Q25 earnings release,https://pressroom.aboutschwab.com/press-releases/press-release/2026/Schwab-Reports-Record-4Q-and-Full-Year-2025-Results/default.aspx
+SCHW,2026Q3,0.058,annualized quarterly core NNA,Schwab 3Q26 coverage (Quartz),https://qz.com/charles-schwab-record-revenue-net-new-assets-earnings-101526
+LPLA,2024Q4,0.171,annualized organic NNA / prior-period assets,LPL 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/1397911/000162828026004112/a2025q4earningsrelease.htm
+LPLA,2025Q1,0.163,annualized organic NNA / prior-period assets,LPL 1Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-first-quarter-2026-results
+LPLA,2025Q2,0.046,annualized organic NNA / prior-period assets,LPL 2Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-second-quarter-2026-results
+LPLA,2025Q3,0.068,annualized organic NNA / prior-period assets,LPL 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/1397911/000162828026004112/a2025q4earningsrelease.htm
+LPLA,2025Q4,0.039,annualized organic NNA / prior-period assets,LPL 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/1397911/000162828026004112/a2025q4earningsrelease.htm
+LPLA,2026Q1,0.036,annualized organic NNA / prior-period assets,LPL 1Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-first-quarter-2026-results
+LPLA,2026Q2,0.040,annualized organic NNA / prior-period assets,LPL 2Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-second-quarter-2026-results

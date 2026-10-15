@@ -1,0 +1,5 @@
+firm,period,event,est_nna_impact_bn,impact_basis,source_doc,source_url
+MS,2024Q1,Family office inflows,48,"""a little more than half"" of $94.9B; estimate = 50.5%",MS 1Q24 earnings release,https://www.businesswire.com/news/home/20240415825770/en
+MS,2026Q3,IPO-related flows,118,"""just over half"" of $232.4B; estimate = 51%",MS 3Q26 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000288/a3q26msearningsrelease.htm
+SCHW,2026Q1,Mutual fund clearing deconversion,-17.5,stated outflow included in core NNA,Schwab 1Q26 10-Q,https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000019/schw-20260331.htm
+LPLA,2025Q3,First Horizon onboarding / large-institution flows,12,"organic $32.7B vs $21B ""prior to these impacts""",LPL 3Q25 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-third-quarter-2025-results

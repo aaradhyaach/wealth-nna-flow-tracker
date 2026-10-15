@@ -1,0 +1,43 @@
+firm,period,period_type,metric,value_bn,report_context,source_doc,source_url
+MS,2023Q1,Q,nna,109.6,prior-year column in 1Q24 release,MS 1Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000315/a1q24msearningsrelease.htm
+MS,2023Q2,Q,nna,89.5,prior-year column in 2Q24 release,MS 2Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000398/a2q24msearningsrelease.htm
+MS,2023Q3,Q,nna,35.7,prior-year column in 3Q24 release,MS 3Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000484/a3q24msearningsrelease.htm
+MS,2023Q4,Q,nna,47.5,prior-year column in 4Q24 release,MS 4Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542125000079/a4q24msearningsrelease.htm
+MS,2023,FY,nna,282.3,full-year prior column in 4Q24 release,MS 4Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542125000079/a4q24msearningsrelease.htm
+MS,2024Q1,Q,nna,94.9,current quarter,MS 1Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000315/a1q24msearningsrelease.htm
+MS,2024Q2,Q,nna,36.4,current quarter,MS 2Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000398/a2q24msearningsrelease.htm
+MS,2024H1,H1,nna,131,narrative (rounded),MS 2Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000398/a2q24msearningsrelease.htm
+MS,2024Q3,Q,nna,63.9,current quarter,MS 3Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542124000484/a3q24msearningsrelease.htm
+MS,2024Q4,Q,nna,56.5,current quarter,MS 4Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542125000079/a4q24msearningsrelease.htm
+MS,2024,FY,nna,251.7,full year,MS 4Q24 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542125000079/a4q24msearningsrelease.htm
+MS,2024Q4,Q,nna,56.5,prior-year column in 4Q25 release,MS 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542126000007/a4q25msearningsrelease.htm
+MS,2025Q1,Q,nna,93.8,prior-year column in 1Q26 release,MS 1Q26 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000111/a1q26msearningsrelease.htm
+MS,2025Q2,Q,nna,59.2,prior-year column in 2Q26 release,MS 2Q26 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000207/a2q26msearningsrelease.htm
+MS,2025Q3,Q,nna,81.0,current quarter,MS 3Q25 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542125000535/a3q25msearningsrelease.htm
+MS,2025Q3,Q,nna,81.0,prior-year column in 3Q26 release,MS 3Q26 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000288/a3q26msearningsrelease.htm
+MS,2025Q4,Q,nna,122.3,current quarter,MS 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542126000007/a4q25msearningsrelease.htm
+MS,2025,FY,nna,356.3,full year,MS 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/895421/000089542126000007/a4q25msearningsrelease.htm
+MS,2025,FY,nna,356.3,10-K WM metrics table,MS 2025 Form 10-K,https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm
+MS,2026Q1,Q,nna,118.4,current quarter,MS 1Q26 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000111/a1q26msearningsrelease.htm
+MS,2026Q2,Q,nna,148.1,current quarter,MS 2Q26 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000207/a2q26msearningsrelease.htm
+MS,2026Q3,Q,nna,232.4,current quarter,MS 3Q26 earnings release,https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000288/a3q26msearningsrelease.htm
+MS,2026YTD3,YTD,nna,500,earnings call (roughly half a trillion),MS 3Q26 earnings call,https://www.fool.com/earnings/call-transcripts/2026/10/14/morgan-stanley-ms-q3-2026-earnings-call-transcript/
+SCHW,2024Q2,Q,nna,61.2,prior-year column in 2Q25 10-Q (core),Schwab 2Q25 10-Q,https://www.sec.gov/Archives/edgar/data/316709/000031670925000039/schw-20250630.htm
+SCHW,2024H1,H1,nna,156.8,prior-year YTD in 2Q25 10-Q (core),Schwab 2Q25 10-Q,https://www.sec.gov/Archives/edgar/data/316709/000031670925000039/schw-20250630.htm
+SCHW,2025Q1,Q,nna,137.7,prior-year column in 1Q26 10-Q (core),Schwab 1Q26 10-Q,https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000019/schw-20260331.htm
+SCHW,2025Q2,Q,nna,80.3,current quarter (core),Schwab 2Q25 10-Q,https://www.sec.gov/Archives/edgar/data/316709/000031670925000039/schw-20250630.htm
+SCHW,2025H1,H1,nna,218.0,YTD (core),Schwab 2Q25 10-Q,https://www.sec.gov/Archives/edgar/data/316709/000031670925000039/schw-20250630.htm
+SCHW,2025Q4,Q,nna,163.9,current quarter (core),Schwab 4Q25 earnings release,https://pressroom.aboutschwab.com/press-releases/press-release/2026/Schwab-Reports-Record-4Q-and-Full-Year-2025-Results/default.aspx
+SCHW,2025,FY,nna,519.4,full year (core),Schwab 2025 Form 10-K,https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm
+SCHW,2026Q1,Q,nna,140.0,current quarter (core),Schwab 1Q26 10-Q,https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000019/schw-20260331.htm
+SCHW,2026Q2,Q,nna,119.8,current quarter (core),Schwab 2Q26 earnings release,https://www.01net.it/schwab-reports-record-quarterly-revenue-and-earnings/
+SCHW,2026Q3,Q,nna,190.4,current quarter (core),Schwab 3Q26 earnings release,https://content.schwab.com/web/retail/public/about-schwab/schwab_q3_2026_earnings_release.pdf
+SCHW,2026YTD3,YTD,nna,450,investor slides (rounded),Schwab 3Q26 slides coverage,https://ca.investing.com/news/stock-market-news/schwab-q3-2026-slides-record-results-show-29-eps-growth-shares-fall-93CH-4883500
+LPLA,2024Q4,Q,nna,68.0,prior-year column in 4Q25 release (organic),LPL 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/1397911/000162828026004112/a2025q4earningsrelease.htm
+LPLA,2025Q1,Q,nna,70.9,prior-year column in 1Q26 release (organic),LPL 1Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-first-quarter-2026-results
+LPLA,2025Q2,Q,nna,20.5,prior-year column in 2Q26 release (organic),LPL 2Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-second-quarter-2026-results
+LPLA,2025Q3,Q,nna,32.7,prior-quarter column in 4Q25 release (organic),LPL 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/1397911/000162828026004112/a2025q4earningsrelease.htm
+LPLA,2025Q4,Q,nna,22.5,current quarter (organic),LPL 4Q25 earnings release,https://www.sec.gov/Archives/edgar/data/1397911/000162828026004112/a2025q4earningsrelease.htm
+LPLA,2026Q1,Q,nna,21.4,current quarter (organic),LPL 1Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-first-quarter-2026-results
+LPLA,2026Q2,Q,nna,23.1,current quarter (organic),LPL 2Q26 earnings release,https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-second-quarter-2026-results
+LPLA,2026Q2,Q,nna,23.6,third-party KPI aggregator,TipRanks LPLA NNA page,https://www.tipranks.com/stocks/lpla/kpis/net-new-assets

@@ -1,0 +1,77 @@
+id,check_name,subject,expected,actual,diff,status,detail
+1,V1 cross-source agreement,LPLA 2026Q2,23.1,23.6,0.5,FAIL,LPL 2Q26 earnings release = 23.1 | TipRanks LPLA NNA page = 23.6
+2,V1 cross-source agreement,MS 2024Q4,56.5,56.5,0.0,PASS,MS 4Q24 earnings release = 56.5 | MS 4Q25 earnings release = 56.5
+3,V1 cross-source agreement,MS 2025Q3,81.0,81.0,0.0,PASS,MS 3Q25 earnings release = 81.0 | MS 3Q26 earnings release = 81.0
+4,V2 quarters sum to full year,MS 2023,282.3,282.3,0.0,PASS,4 quarters found; methods: reported
+5,V2 quarters sum to full year,MS 2024,251.7,251.7,0.0,PASS,4 quarters found; methods: reported
+6,V2 quarters sum to full year,MS 2025,356.3,356.3,0.0,PASS,4 quarters found; methods: reported
+7,V2 quarters sum to full year,SCHW 2025,519.4,519.4,0.0,PASS,"4 quarters found; methods: reported,derived"
+8,V3 narrative totals vs quarters,MS 2024H1,131.0,131.3,0.3,PASS,narrative (rounded)
+9,V3 narrative totals vs quarters,MS 2026YTD3,500.0,498.9,-1.1,PASS,earnings call (roughly half a trillion)
+10,V3 narrative totals vs quarters,SCHW 2025H1,218.0,218.0,0.0,PASS,YTD (core)
+11,V3 narrative totals vs quarters,SCHW 2026YTD3,450.0,450.2,0.2,PASS,investor slides (rounded)
+12,V4 computed vs reported growth,LPLA 2024Q4,0.171,,,INFO,not testable: no sourced beginning-period assets
+13,V4 computed vs reported growth,LPLA 2025Q1,0.163,,,INFO,not testable: no sourced beginning-period assets
+14,V4 computed vs reported growth,LPLA 2025Q2,0.046,,,INFO,not testable: no sourced beginning-period assets
+15,V4 computed vs reported growth,LPLA 2025Q3,0.068,,,INFO,not testable: no sourced beginning-period assets
+16,V4 computed vs reported growth,LPLA 2025Q4,0.039,,,INFO,not testable: no sourced beginning-period assets
+17,V4 computed vs reported growth,LPLA 2026Q1,0.036,0.0352,-0.0008,PASS,begin assets: anchor: exact
+18,V4 computed vs reported growth,LPLA 2026Q2,0.04,0.0395,-0.0005,PASS,begin assets: anchor: exact
+19,V4 computed vs reported growth,MS 2024,0.05,0.0494,-0.0006,PASS,begin assets: interpolated
+20,V4 computed vs reported growth,SCHW 2025,0.051,0.0515,0.0005,PASS,begin assets: anchor: derived (FY25 $11.90T / 1.18)
+21,V4 computed vs reported growth,SCHW 2026Q3,0.058,0.0607,0.0027,WARN,begin assets: interpolated
+22,V5 completeness,LPLA 2024Q4,,,,PASS,reported
+23,V5 completeness,LPLA 2025Q1,,,,PASS,reported
+24,V5 completeness,LPLA 2025Q2,,,,PASS,reported
+25,V5 completeness,LPLA 2025Q3,,,,PASS,reported
+26,V5 completeness,LPLA 2025Q4,,,,PASS,reported
+27,V5 completeness,LPLA 2026Q1,,,,PASS,reported
+28,V5 completeness,LPLA 2026Q2,,,,PASS,reported
+29,V5 completeness,LPLA 2026Q3,,,,WARN,not yet reported / not sourced
+30,V5 completeness,MS 2023Q1,,,,PASS,reported
+31,V5 completeness,MS 2023Q2,,,,PASS,reported
+32,V5 completeness,MS 2023Q3,,,,PASS,reported
+33,V5 completeness,MS 2023Q4,,,,PASS,reported
+34,V5 completeness,MS 2024Q1,,,,PASS,reported
+35,V5 completeness,MS 2024Q2,,,,PASS,reported
+36,V5 completeness,MS 2024Q3,,,,PASS,reported
+37,V5 completeness,MS 2024Q4,,,,PASS,reported
+38,V5 completeness,MS 2025Q1,,,,PASS,reported
+39,V5 completeness,MS 2025Q2,,,,PASS,reported
+40,V5 completeness,MS 2025Q3,,,,PASS,reported
+41,V5 completeness,MS 2025Q4,,,,PASS,reported
+42,V5 completeness,MS 2026Q1,,,,PASS,reported
+43,V5 completeness,MS 2026Q2,,,,PASS,reported
+44,V5 completeness,MS 2026Q3,,,,PASS,reported
+45,V5 completeness,SCHW 2025Q1,,,,PASS,reported
+46,V5 completeness,SCHW 2025Q2,,,,PASS,reported
+47,V5 completeness,SCHW 2025Q3,,,,PASS,derived
+48,V5 completeness,SCHW 2025Q4,,,,PASS,reported
+49,V5 completeness,SCHW 2026Q1,,,,PASS,reported
+50,V5 completeness,SCHW 2026Q2,,,,PASS,reported
+51,V5 completeness,SCHW 2026Q3,,,,PASS,reported
+52,V6 outlier review,LPLA 2025Q2,69.5,20.5,-49.0,WARN,no tagged event
+53,V6 outlier review,LPLA 2025Q3,53.1,32.7,-20.4,PASS,known driver: First Horizon onboarding / large-institution flows
+54,V6 outlier review,LPLA 2025Q4,48.0,22.5,-25.5,PASS,no tagged event
+55,V6 outlier review,LPLA 2026Q1,42.9,21.4,-21.5,PASS,no tagged event
+56,V6 outlier review,LPLA 2026Q2,39.3,23.1,-16.2,PASS,no tagged event
+57,V6 outlier review,MS 2023Q3,99.6,35.7,-63.9,WARN,no tagged event
+58,V6 outlier review,MS 2023Q4,78.3,47.5,-30.8,PASS,no tagged event
+59,V6 outlier review,MS 2024Q1,70.6,94.9,24.3,PASS,known driver: Family office inflows
+60,V6 outlier review,MS 2024Q2,75.4,36.4,-39.0,PASS,no tagged event
+61,V6 outlier review,MS 2024Q3,68.9,63.9,-5.0,PASS,no tagged event
+62,V6 outlier review,MS 2024Q4,68.2,56.5,-11.7,PASS,no tagged event
+63,V6 outlier review,MS 2025Q1,66.8,93.8,27.1,PASS,no tagged event
+64,V6 outlier review,MS 2025Q2,64.8,59.2,-5.6,PASS,no tagged event
+65,V6 outlier review,MS 2025Q3,61.0,81.0,20.0,PASS,no tagged event
+66,V6 outlier review,MS 2025Q4,66.7,122.3,55.6,WARN,no tagged event
+67,V6 outlier review,MS 2026Q1,76.0,118.4,42.4,PASS,no tagged event
+68,V6 outlier review,MS 2026Q2,78.9,148.1,69.2,WARN,no tagged event
+69,V6 outlier review,MS 2026Q3,92.9,232.4,139.5,EXPLAINED,known driver: IPO-related flows
+70,V6 outlier review,SCHW 2025Q1,78.4,137.7,59.3,WARN,no tagged event
+71,V6 outlier review,SCHW 2025Q2,98.2,80.3,-17.9,PASS,no tagged event
+72,V6 outlier review,SCHW 2025Q3,93.7,137.5,43.8,PASS,no tagged event
+73,V6 outlier review,SCHW 2025Q4,102.5,163.9,61.4,PASS,no tagged event
+74,V6 outlier review,SCHW 2026Q1,112.7,140.0,27.3,PASS,known driver: Mutual fund clearing deconversion
+75,V6 outlier review,SCHW 2026Q2,116.6,119.8,3.2,PASS,no tagged event
+76,V6 outlier review,SCHW 2026Q3,117.0,190.4,73.4,WARN,no tagged event

@@ -1,0 +1,25 @@
+firm,period,q_index,client_assets_bn,assets_method
+LPLA,2025Q4,12,2430.8,anchor: exact
+LPLA,2026Q1,13,2336.3,anchor: exact
+LPLA,2026Q2,14,2562.7,anchor: exact
+MS,2023Q3,3,4800.0,"anchor: approx (""nearly $4.8T"")"
+MS,2023Q4,4,5100.0,interpolated
+MS,2024Q1,5,5400.0,interpolated
+MS,2024Q2,6,5700.0,interpolated
+MS,2024Q3,7,6000.0,"anchor: approx (""$6 trillion"")"
+MS,2024Q4,8,6194.0,anchor: exact
+MS,2025Q1,9,6490.75,interpolated
+MS,2025Q2,10,6787.5,interpolated
+MS,2025Q3,11,7084.25,interpolated
+MS,2025Q4,12,7381.0,anchor: exact
+MS,2026Q1,13,7720.666666666667,interpolated
+MS,2026Q2,14,8060.333333333333,interpolated
+MS,2026Q3,15,8400.0,"anchor: approx (""$8.4 trillion"")"
+SCHW,2024Q4,8,10084.7,anchor: derived (FY25 $11.90T / 1.18)
+SCHW,2025Q1,9,9929.7,anchor: exact
+SCHW,2025Q2,10,10760.0,"anchor: approx (""$10.76T"")"
+SCHW,2025Q3,11,11330.0,interpolated
+SCHW,2025Q4,12,11900.0,"anchor: approx (""$11.90T"")"
+SCHW,2026Q1,13,11767.9,anchor: exact
+SCHW,2026Q2,14,12548.95,interpolated
+SCHW,2026Q3,15,13330.0,"anchor: approx (""$13.33T"")"

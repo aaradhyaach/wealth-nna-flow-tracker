@@ -1,0 +1,2 @@
+target,method,begin_assets_bn,rate_point,rate_lo,rate_hi,nna_point_bn,nna_lo_bn,nna_hi_bn,n_backtest,mae_last_q,mae_ttm_mean,mae_ttm_seasonal,bias_ttm_mean
+4Q26,ttm_mean,8400.0,0.06668,0.06017,0.09029,140.0,126.3,189.6,8,1.55,1.22,1.36,-0.88
