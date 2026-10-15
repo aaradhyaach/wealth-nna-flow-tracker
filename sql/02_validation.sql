@@ -20,7 +20,7 @@ SELECT 'V2 quarters sum to full year', fy.firm || ' ' || fy.period,
        fy.value_bn, SUM(q.nna_bn), SUM(q.nna_bn) - fy.value_bn,
        CASE WHEN COUNT(*) < 4 THEN 'WARN'
             WHEN ABS(SUM(q.nna_bn) - fy.value_bn) <= 0.15 THEN 'PASS' ELSE 'FAIL' END,
-       COUNT(*) || ' quarters found; methods: ' || STRING_AGG(DISTINCT q.nna_method, ',')
+       COUNT(*) || ' quarters found; methods: ' || STRING_AGG(DISTINCT q.nna_method, ',' ORDER BY q.nna_method)
 FROM (SELECT DISTINCT firm, period, value_bn FROM stg_nna WHERE period_type = 'FY') fy
 JOIN fct_nna_quarterly q ON q.firm = fy.firm AND q.year = CAST(fy.period AS INT)
 GROUP BY fy.firm, fy.period, fy.value_bn

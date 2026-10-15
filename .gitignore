@@ -1,5 +1,4 @@
 __pycache__/
 outputs/nna.duckdb
 .DS_Store
-node_modules/
 reports/page-*.jpg

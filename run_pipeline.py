@@ -34,3 +34,4 @@ for m, s in fc["scores"].items():
 import runpy
 runpy.run_path(str(ROOT / "src" / "make_charts.py"), run_name="__main__")
 runpy.run_path(str(ROOT / "src" / "make_tableau_data.py"), run_name="__main__")
+runpy.run_path(str(ROOT / "src" / "make_brief.py"), run_name="__main__")

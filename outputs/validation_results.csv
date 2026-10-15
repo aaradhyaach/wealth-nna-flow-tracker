@@ -5,7 +5,7 @@ V1 cross-source agreement,MS 2025Q3,81.0,81.0,0.0,PASS,MS 3Q25 earnings release 
 V2 quarters sum to full year,MS 2023,282.3,282.3,0.0,PASS,4 quarters found; methods: reported
 V2 quarters sum to full year,MS 2024,251.7,251.70000000000002,2.842170943040401e-14,PASS,4 quarters found; methods: reported
 V2 quarters sum to full year,MS 2025,356.3,356.3,0.0,PASS,4 quarters found; methods: reported
-V2 quarters sum to full year,SCHW 2025,519.4,519.4,0.0,PASS,"4 quarters found; methods: reported,derived"
+V2 quarters sum to full year,SCHW 2025,519.4,519.4,0.0,PASS,"4 quarters found; methods: derived,reported"
 V3 narrative totals vs quarters,MS 2024H1,131.0,131.3,0.30000000000001137,PASS,narrative (rounded)
 V3 narrative totals vs quarters,MS 2026YTD3,500.0,498.9,-1.1000000000000227,PASS,earnings call (roughly half a trillion)
 V3 narrative totals vs quarters,SCHW 2025H1,218.0,218.0,0.0,PASS,YTD (core)

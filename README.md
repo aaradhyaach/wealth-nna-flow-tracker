@@ -6,7 +6,7 @@
 
 A small, end-to-end Net New Assets (NNA) reporting pipeline built only from public filings: source-cited raw data → SQL model → automated validation → explainable forecast → Tableau dashboard and a senior-management brief.
 
-**Senior-management brief:** [PDF](reports/NNA_Weekly_Brief_3Q26.pdf) · [Word](reports/NNA_Weekly_Brief_3Q26.docx)  
+**Senior-management brief (PDF):** [NNA_Weekly_Brief_3Q26.pdf](reports/NNA_Weekly_Brief_3Q26.pdf)  
 **Interactive Tableau dashboard:** [view on Tableau Public](https://public.tableau.com/app/profile/aaradhya.acharya/viz/WealthNNAFlowTracker/WealthNNAFlowTracker)
 
 [![Wealth NNA Flow Tracker dashboard on Tableau Public](https://public.tableau.com/views/WealthNNAFlowTracker/WealthNNAFlowTracker.png?:showVizHome=no)](https://public.tableau.com/app/profile/aaradhya.acharya/viz/WealthNNAFlowTracker/WealthNNAFlowTracker)
@@ -44,7 +44,7 @@ outputs/                DuckDB file + CSVs (open in Excel) + forecast.json
    │
 src/make_charts.py      report charts → reports/figures/*.png
 src/make_tableau_data.py  Tableau-ready extract → tableau/nna_tableau_data.xlsx
-src/make_brief.js       Word brief → reports/NNA_Weekly_Brief_3Q26.docx (+ PDF)
+src/make_brief.py       two-page brief → reports/NNA_Weekly_Brief_3Q26.pdf
 ```
 
 Run it:
@@ -52,8 +52,6 @@ Run it:
 pip install -r requirements.txt
 python run_pipeline.py
 ```
-Rebuild the brief (optional, needs Node.js): `npm install docx && node src/make_brief.js`
-
 The [Tableau dashboard](https://public.tableau.com/app/profile/aaradhya.acharya/viz/WealthNNAFlowTracker/WealthNNAFlowTracker) reads `tableau/nna_tableau_data.xlsx`, which `run_pipeline.py` regenerates.
 
 ## Validation layer (the part reporting teams live in)
@@ -92,7 +90,7 @@ Event upside (IPO lock-up expiries, new workplace mandates) is reported separate
 
 ## Mapping to the role (NNA Analytics & Insights)
 
-- **NNA reporting and senior-management reports** → mart tables + a two-page executive brief (Word/PDF).
+- **NNA reporting and senior-management reports** → mart tables + a two-page executive brief (PDF).
 - **Data reconciliation, benchmarking and validation** → `sql/02_validation.sql`.
 - **NNA forecasting** → `src/forecast.py` with a backtest, not a single fitted line.
 - **Competitor flows** → Schwab and LPL on a like-for-like organic growth basis.
