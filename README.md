@@ -2,9 +2,14 @@
 
 **How fast is Morgan Stanley Wealth Management gathering assets once one-off events are stripped out, and how does that compare with Schwab and LPL?**
 
-*By Aaradhya (Aru) Acharya · linkedin.com/in/aaradhya-a-09631b161 · Built Oct 2026 with public filings*
+*By Aaradhya (Aru) Acharya · [LinkedIn](https://www.linkedin.com/in/aaradhya-a-09631b161) · Built Oct 2026 with public filings*
 
-A small, end-to-end Net New Assets (NNA) reporting pipeline built only from public filings: source-cited raw data → SQL model → automated validation → explainable forecast → dashboard and a one-page senior-management brief.
+A small, end-to-end Net New Assets (NNA) reporting pipeline built only from public filings: source-cited raw data → SQL model → automated validation → explainable forecast → Tableau dashboard and a senior-management brief.
+
+**Senior-management brief:** [PDF](reports/NNA_Weekly_Brief_3Q26.pdf) · [Word](reports/NNA_Weekly_Brief_3Q26.docx)  
+**Tableau dashboard:** *link coming soon*
+
+![Morgan Stanley quarterly NNA](reports/figures/ms_quarterly_nna.png)
 
 ## Headline findings (data through 3Q26, built Oct 15, 2026)
 
@@ -18,6 +23,8 @@ A small, end-to-end Net New Assets (NNA) reporting pipeline built only from publ
 - 4Q25 and 2Q26 are statistical outliers with no disclosed driver — flagged for review rather than assumed to be run-rate.
 - **4Q26 base-case forecast: ~$140B** (80% band $126B–$190B), excluding new one-off events.
 
+![Organic growth vs peers](reports/figures/organic_growth_peers.png)
+
 ## How it works
 
 ```
@@ -29,10 +36,21 @@ sql/02_validation.sql   six automated checks → validation_results
    │
 src/forecast.py         rolling-origin backtest of 3 methods → 4Q26 point + 80% band
    │
-outputs/                DuckDB file + CSVs (open in Excel/Tableau) + forecast.json
+outputs/                DuckDB file + CSVs (open in Excel) + forecast.json
+   │
+src/make_charts.py      report charts → reports/figures/*.png
+src/make_tableau_data.py  Tableau-ready extract → tableau/nna_tableau_data.xlsx
+src/make_brief.js       Word brief → reports/NNA_Weekly_Brief_3Q26.docx (+ PDF)
 ```
 
-Run it: `pip install duckdb pandas numpy && python run_pipeline.py`
+Run it:
+```
+pip install -r requirements.txt
+python run_pipeline.py
+```
+Rebuild the brief (optional, needs Node.js): `npm install docx && node src/make_brief.js`
+
+The Tableau dashboard is built from `tableau/nna_tableau_data.xlsx`; see [tableau/TABLEAU_GUIDE.md](tableau/TABLEAU_GUIDE.md).
 
 ## Validation layer (the part reporting teams live in)
 
@@ -59,6 +77,8 @@ Models the **ex-event growth rate** (not dollars), so quarters stay comparable a
 
 Event upside (IPO lock-up expiries, new workplace mandates) is reported separately because history can't forecast it.
 
+![Forecast backtest](reports/figures/forecast_backtest.png)
+
 ## Caveats
 
 - Firms define NNA differently (Schwab "core", LPL "organic"); compare rates, not dollars.
@@ -68,8 +88,8 @@ Event upside (IPO lock-up expiries, new workplace mandates) is reported separate
 
 ## Mapping to the role (NNA Analytics & Insights)
 
-- **NNA reporting and senior-management reports** → mart tables + one-page brief written for executives.
+- **NNA reporting and senior-management reports** → mart tables + a two-page executive brief (Word/PDF).
 - **Data reconciliation, benchmarking and validation** → `sql/02_validation.sql`.
 - **NNA forecasting** → `src/forecast.py` with a backtest, not a single fitted line.
 - **Competitor flows** → Schwab and LPL on a like-for-like organic growth basis.
-- **SQL, Python, Excel/Tableau** → DuckDB SQL (Snowflake-portable), pandas/numpy, CSV outputs.
+- **SQL, Python, Excel, Tableau** → DuckDB SQL (Snowflake-portable), pandas/numpy, Excel extract, Tableau Public dashboard.

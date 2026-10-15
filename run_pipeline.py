@@ -29,3 +29,8 @@ print(f"Forecast ({fc['method']}): 4Q26 NNA ${fc['nna_point_bn']:.0f}B "
       f"rate {fc['rate_point']*100:.1f}% annualized")
 for m, s in fc["scores"].items():
     print(f"  {m:13s} MAE {s['mae_pp']:.2f}pp  RMSE {s['rmse_pp']:.2f}pp  bias {s['bias_pp']:+.2f}pp")
+
+# Report charts (PNG) and the Tableau-ready Excel extract
+import runpy
+runpy.run_path(str(ROOT / "src" / "make_charts.py"), run_name="__main__")
+runpy.run_path(str(ROOT / "src" / "make_tableau_data.py"), run_name="__main__")
