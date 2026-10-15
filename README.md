@@ -7,9 +7,11 @@
 A small, end-to-end Net New Assets (NNA) reporting pipeline built only from public filings: source-cited raw data → SQL model → automated validation → explainable forecast → Tableau dashboard and a senior-management brief.
 
 **Senior-management brief:** [PDF](reports/NNA_Weekly_Brief_3Q26.pdf) · [Word](reports/NNA_Weekly_Brief_3Q26.docx)  
-**Tableau dashboard:** *link coming soon*
+**Interactive Tableau dashboard:** [view on Tableau Public](https://public.tableau.com/app/profile/aaradhya.acharya/viz/WealthNNAFlowTracker/WealthNNAFlowTracker)
 
-![Morgan Stanley quarterly NNA](reports/figures/ms_quarterly_nna.png)
+[![Wealth NNA Flow Tracker dashboard on Tableau Public](https://public.tableau.com/views/WealthNNAFlowTracker/WealthNNAFlowTracker.png?:showVizHome=no)](https://public.tableau.com/app/profile/aaradhya.acharya/viz/WealthNNAFlowTracker/WealthNNAFlowTracker)
+
+*Click the dashboard to open the interactive version.*
 
 ## Headline findings (data through 3Q26, built Oct 15, 2026)
 
@@ -22,6 +24,8 @@ A small, end-to-end Net New Assets (NNA) reporting pipeline built only from publ
 - The 3Q26 record is real but episodic; the underlying run-rate is still up ~41% year on year.
 - 4Q25 and 2Q26 are statistical outliers with no disclosed driver — flagged for review rather than assumed to be run-rate.
 - **4Q26 base-case forecast: ~$140B** (80% band $126B–$190B), excluding new one-off events.
+
+![Morgan Stanley quarterly NNA](reports/figures/ms_quarterly_nna.png)
 
 ![Organic growth vs peers](reports/figures/organic_growth_peers.png)
 
@@ -50,7 +54,7 @@ python run_pipeline.py
 ```
 Rebuild the brief (optional, needs Node.js): `npm install docx && node src/make_brief.js`
 
-The Tableau dashboard is built from `tableau/nna_tableau_data.xlsx`; see [tableau/TABLEAU_GUIDE.md](tableau/TABLEAU_GUIDE.md).
+The [Tableau dashboard](https://public.tableau.com/app/profile/aaradhya.acharya/viz/WealthNNAFlowTracker/WealthNNAFlowTracker) reads `tableau/nna_tableau_data.xlsx`, which `run_pipeline.py` regenerates.
 
 ## Validation layer (the part reporting teams live in)
 

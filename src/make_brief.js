@@ -119,7 +119,8 @@ const doc = new Document({
          link("Schwab 3Q26 release", "https://content.schwab.com/web/retail/public/about-schwab/schwab_q3_2026_earnings_release.pdf"), t(" · ", { size: 16, color: MUTED }),
          link("Schwab 2025 10-K", "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm"), t(" · ", { size: 16, color: MUTED }),
          link("LPL 2Q26 results", "https://investor.lpl.com/news-releases/news-release-details/lpl-financial-announces-second-quarter-2026-results"), t(" · ", { size: 16, color: MUTED }),
-         link("Code & data", "https://github.com/aaradhyaach/wealth-nna-flow-tracker")], { before: 120 }),
+         link("Code & data", "https://github.com/aaradhyaach/wealth-nna-flow-tracker"), t(" · ", { size: 16, color: MUTED }),
+         link("Interactive dashboard", "https://public.tableau.com/app/profile/aaradhya.acharya/viz/WealthNNAFlowTracker/WealthNNAFlowTracker")], { before: 120 }),
     ],
   }],
 });
