@@ -1,2 +1,3 @@
 __pycache__/
 outputs/nna.duckdb
+.DS_Store
